@@ -1,0 +1,124 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+header h1{
+    color: rgb(255, 255, 255);
+}
+#banner{
+    width: 100%;
+}
+body p{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+#p2{
+    text-align: center;
+}
+header img {
+    float: left;
+    width: 90px;
+    margin-right: 0em;
+}
+header{
+    background-color: rgb(15, 59, 116);
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+nav ul {
+    list-style: none;
+    padding: 5px;
+    display: block;
+    background-color: rgb(15, 59, 116);
+    padding-left: 4px;
+    height: 24px;
+}
+nav ul li {
+    display: inline;
+    padding: 0px 20px 5px 10px;
+    height: 24px;
+    border-right: 1px solid #ccc;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: rgb(118, 166, 228);
+}
+section{
+    margin-top: 3%;
+    padding: 5px;
+    text-align: center;
+}
+h2,h3{
+    color: rgb(15, 59, 116);
+}
+table{
+    padding-top: 2%;
+    width: 80%;
+    margin-bottom: 0em;
+    margin: auto;
+}
+thead{
+    background-color:  rgb(15, 59, 116);
+    color: #ffffff;
+}
+th{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+td{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+td:nth-child(2){
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #5b8dcf32;
+}
+tr:hover {
+    background-color: rgb(118, 166, 228);
+}
+column {
+    background-color: rgb(191, 219, 255);
+    float: left;
+    width: 29.33%;
+    margin: 2%;
+    border-radius: 15px;
+}
+column2{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 33.33%;
+}
+column img{
+    padding-top: 10%;
+    width: 33.33%;
+}
+column2 img{
+    padding-top: 10%;
+    width: 53.33%;
+}
+footer{
+    padding: 5%;
+    color: rgb(255, 255, 255);
+    margin-top: 30%;
+    background-color: rgb(15, 59, 116);
+}
+footer h3{
+    color: rgb(255, 255, 255);
+    padding-left: 10%;
+}
+p3{
+    
+    padding-left: 60%;
+    font-size: smaller;
+}
